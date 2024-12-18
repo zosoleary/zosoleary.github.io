@@ -430,7 +430,7 @@ def show_update_window(name='Testing Window', current='1.0', new='1.1', icon=CON
     # update.doModal()
     # del update
     msgcurrent = 'Running latest version of installed build: '
-    msgupdate = 'Update available for installed build: '
+    msgupdate = 'WAIT FOR WEATHER TO SHOW Update: '
     build_name = '[COLOR {0}]{1}[/COLOR]'.format(CONFIG.COLOR1, name)
     current_version = 'Current Version: v[COLOR {0}]{1}[/COLOR]'.format(CONFIG.COLOR1, current)
     latest_version = 'Latest Version: v[COLOR {0}]{1}[/COLOR]'.format(CONFIG.COLOR1, new)
