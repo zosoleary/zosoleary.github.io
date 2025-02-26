@@ -45,9 +45,9 @@ def binaries():
 
         logging.log("[Binary Detection] Reinstalling Eligible Binary Addons")
         dialog.ok(CONFIG.ADDONTITLE,
-                  '[COLOR {0}] WAIT UNTIL WEATHER APPEARS BEFORE PUSHING ANY BUTTON. '
-                  'The restored build contains platform-specific addons, which will now be '
-                  'automatically installed. A number of dialogs may pop up during this process. [/COLOR]'.format(
+                  '[COLOR {0}] STOP! DO NOT PUSH ANYTHING!    '
+                  'Wait until the weather appears next to the time before pushing OK. Some necessary addons will be '
+                  'automatically installed. Just let it do its thing until all finished. [/COLOR]'.format(
                       CONFIG.COLOR2))
     else:
         logging.log("[Binary Detection] No Eligible Binary Addons to Reinstall")
